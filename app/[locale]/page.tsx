@@ -179,7 +179,7 @@ export default async function Home({
         </div>
       </section>
 
-      {/* КОНТАКТЫ */}
+      {/* КОНТАКТЫ — без ссылок */}
       <section className="py-20 px-4 bg-white dark:bg-gray-950">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
@@ -192,13 +192,11 @@ export default async function Home({
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <a
-              href="tel:+79174357548"
-              className="group bg-white dark:bg-gray-900 rounded-2xl p-7 border border-gray-200 dark:border-gray-800 hover:border-blue-500 hover:shadow-xl transition-all"
-            >
-              <div className="w-14 h-14 bg-blue-100 dark:bg-blue-950/50 rounded-xl flex items-center justify-center mb-5 group-hover:bg-blue-600 transition">
+            {/* Телефон */}
+            <div className="bg-white dark:bg-gray-900 rounded-2xl p-7 border border-gray-200 dark:border-gray-800">
+              <div className="w-14 h-14 bg-blue-100 dark:bg-blue-950/50 rounded-xl flex items-center justify-center mb-5">
                 <svg
-                  className="w-7 h-7 text-blue-600 dark:text-blue-400 group-hover:text-white"
+                  className="w-7 h-7 text-blue-600 dark:text-blue-400"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -218,15 +216,13 @@ export default async function Home({
               <div className="text-gray-600 dark:text-gray-400">
                 +7 917 403 13 59
               </div>
-            </a>
+            </div>
 
-            <a
-              href="mailto:ufaust10@yandex.ru"
-              className="group bg-white dark:bg-gray-900 rounded-2xl p-7 border border-gray-200 dark:border-gray-800 hover:border-blue-500 hover:shadow-xl transition-all"
-            >
-              <div className="w-14 h-14 bg-blue-100 dark:bg-blue-950/50 rounded-xl flex items-center justify-center mb-5 group-hover:bg-blue-600 transition">
+            {/* Email */}
+            <div className="bg-white dark:bg-gray-900 rounded-2xl p-7 border border-gray-200 dark:border-gray-800">
+              <div className="w-14 h-14 bg-blue-100 dark:bg-blue-950/50 rounded-xl flex items-center justify-center mb-5">
                 <svg
-                  className="w-7 h-7 text-blue-600 dark:text-blue-400 group-hover:text-white"
+                  className="w-7 h-7 text-blue-600 dark:text-blue-400"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -246,17 +242,13 @@ export default async function Home({
               <div className="text-gray-600 dark:text-gray-400 break-all">
                 sts.ufa@mail.ru
               </div>
-            </a>
+            </div>
 
-            <a
-              href="https://wa.me/79174357548"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group bg-white dark:bg-gray-900 rounded-2xl p-7 border border-gray-200 dark:border-gray-800 hover:border-blue-500 hover:shadow-xl transition-all"
-            >
-              <div className="w-14 h-14 bg-blue-100 dark:bg-blue-950/50 rounded-xl flex items-center justify-center mb-5 group-hover:bg-blue-600 transition">
+            {/* WhatsApp — без ссылки */}
+            <div className="bg-white dark:bg-gray-900 rounded-2xl p-7 border border-gray-200 dark:border-gray-800">
+              <div className="w-14 h-14 bg-blue-100 dark:bg-blue-950/50 rounded-xl flex items-center justify-center mb-5">
                 <svg
-                  className="w-7 h-7 text-blue-600 dark:text-blue-400 group-hover:text-white"
+                  className="w-7 h-7 text-blue-600 dark:text-blue-400"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
@@ -269,7 +261,7 @@ export default async function Home({
               <div className="text-gray-600 dark:text-gray-400">
                 +7 917 435 75 48
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </section>

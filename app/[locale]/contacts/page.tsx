@@ -48,18 +48,15 @@ export default async function ContactsPage({ params }: { params: Params }) {
         </div>
       </section>
 
-      {/* КОНТАКТЫ — карточки */}
+      {/* КОНТАКТЫ — карточки без ссылок */}
       <section className="py-20 px-4 bg-white dark:bg-gray-950">
         <div className="container mx-auto max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Телефон */}
-            <a
-              href="tel:+79174357548"
-              className="group bg-white dark:bg-gray-900 rounded-2xl p-7 border border-gray-200 dark:border-gray-800 hover:border-blue-500 hover:shadow-xl transition-all"
-            >
-              <div className="w-14 h-14 bg-blue-100 dark:bg-blue-950/50 rounded-xl flex items-center justify-center mb-5 group-hover:bg-blue-600 transition">
+            <div className="bg-white dark:bg-gray-900 rounded-2xl p-7 border border-gray-200 dark:border-gray-800">
+              <div className="w-14 h-14 bg-blue-100 dark:bg-blue-950/50 rounded-xl flex items-center justify-center mb-5">
                 <svg
-                  className="w-7 h-7 text-blue-600 dark:text-blue-400 group-hover:text-white"
+                  className="w-7 h-7 text-blue-600 dark:text-blue-400"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -79,16 +76,13 @@ export default async function ContactsPage({ params }: { params: Params }) {
               <div className="text-gray-600 dark:text-gray-400 text-sm">
                 +7 917 403 13 59
               </div>
-            </a>
+            </div>
 
             {/* Email */}
-            <a
-              href="mailto:ufaust10@yandex.ru"
-              className="group bg-white dark:bg-gray-900 rounded-2xl p-7 border border-gray-200 dark:border-gray-800 hover:border-blue-500 hover:shadow-xl transition-all"
-            >
-              <div className="w-14 h-14 bg-blue-100 dark:bg-blue-950/50 rounded-xl flex items-center justify-center mb-5 group-hover:bg-blue-600 transition">
+            <div className="bg-white dark:bg-gray-900 rounded-2xl p-7 border border-gray-200 dark:border-gray-800">
+              <div className="w-14 h-14 bg-blue-100 dark:bg-blue-950/50 rounded-xl flex items-center justify-center mb-5">
                 <svg
-                  className="w-7 h-7 text-blue-600 dark:text-blue-400 group-hover:text-white"
+                  className="w-7 h-7 text-blue-600 dark:text-blue-400"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -108,18 +102,13 @@ export default async function ContactsPage({ params }: { params: Params }) {
               <div className="text-gray-600 dark:text-gray-400 text-sm break-all">
                 sts.ufa@mail.ru
               </div>
-            </a>
+            </div>
 
             {/* WhatsApp */}
-            <a
-              href="https://wa.me/79174357548"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group bg-white dark:bg-gray-900 rounded-2xl p-7 border border-gray-200 dark:border-gray-800 hover:border-blue-500 hover:shadow-xl transition-all"
-            >
-              <div className="w-14 h-14 bg-blue-100 dark:bg-blue-950/50 rounded-xl flex items-center justify-center mb-5 group-hover:bg-blue-600 transition">
+            <div className="bg-white dark:bg-gray-900 rounded-2xl p-7 border border-gray-200 dark:border-gray-800">
+              <div className="w-14 h-14 bg-blue-100 dark:bg-blue-950/50 rounded-xl flex items-center justify-center mb-5">
                 <svg
-                  className="w-7 h-7 text-blue-600 dark:text-blue-400 group-hover:text-white"
+                  className="w-7 h-7 text-blue-600 dark:text-blue-400"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
@@ -130,7 +119,7 @@ export default async function ContactsPage({ params }: { params: Params }) {
               <div className="text-gray-600 dark:text-gray-400 text-sm">
                 +7 917 435 75 48
               </div>
-            </a>
+            </div>
 
             {/* Адрес */}
             <div className="bg-white dark:bg-gray-900 rounded-2xl p-7 border border-gray-200 dark:border-gray-800">
@@ -164,7 +153,7 @@ export default async function ContactsPage({ params }: { params: Params }) {
         </div>
       </section>
 
-      {/* РЕКВИЗИТЫ — нормальный дизайн */}
+      {/* РЕКВИЗИТЫ */}
       <section className="py-20 px-4 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12">
@@ -252,19 +241,7 @@ export default async function ContactsPage({ params }: { params: Params }) {
                 </div>
               </div>
               <div className="md:col-span-2 text-lg text-gray-700 dark:text-gray-300 md:pt-2">
-                <a
-                  href="tel:+79174357548"
-                  className="hover:text-blue-600 dark:hover:text-blue-400 transition"
-                >
-                  +7 917 435 75 48
-                </a>
-                {" · "}
-                <a
-                  href="tel:+79174031359"
-                  className="hover:text-blue-600 dark:hover:text-blue-400 transition"
-                >
-                  +7 917 403 13 59
-                </a>
+                +7 917 435 75 48 · +7 917 403 13 59
               </div>
             </div>
 
@@ -290,20 +267,8 @@ export default async function ContactsPage({ params }: { params: Params }) {
                   {t("reqEmail")}
                 </div>
               </div>
-              <div className="md:col-span-2 text-lg text-gray-700 dark:text-gray-300 md:pt-2">
-                <a
-                  href="mailto:ufaust10@yandex.ru"
-                  className="hover:text-blue-600 dark:hover:text-blue-400 transition break-all"
-                >
-                  ufaust10@yandex.ru
-                </a>
-                {" · "}
-                <a
-                  href="mailto:sts.ufa@mail.ru"
-                  className="hover:text-blue-600 dark:hover:text-blue-400 transition break-all"
-                >
-                  sts.ufa@mail.ru
-                </a>
+              <div className="md:col-span-2 text-lg text-gray-700 dark:text-gray-300 md:pt-2 break-all">
+                ufaust10@yandex.ru · sts.ufa@mail.ru
               </div>
             </div>
           </div>
