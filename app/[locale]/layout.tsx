@@ -1,10 +1,5 @@
-import BaiDuAnalytics from "@/app/BaiDuAnalytics";
-import GoogleAdsense from "@/app/GoogleAdsense";
-import GoogleAnalytics from "@/app/GoogleAnalytics";
-import PlausibleAnalytics from "@/app/PlausibleAnalytics";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
-import { LanguageDetectionAlert } from "@/components/LanguageDetectionAlert";
 import { TailwindIndicator } from "@/components/TailwindIndicator";
 import { siteConfig } from "@/config/site";
 import { DEFAULT_LOCALE, Locale, routing } from "@/i18n/routing";
@@ -12,14 +7,9 @@ import { constructMetadata } from "@/lib/metadata";
 import { cn } from "@/lib/utils";
 import "@/styles/globals.css";
 import "@/styles/loading.css";
-import { Analytics } from "@vercel/analytics/react";
 import { Metadata, Viewport } from "next";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
-import {
-  getMessages,
-  getTranslations,
-  setRequestLocale,
-} from "next-intl/server";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { ThemeProvider } from "next-themes";
 import { notFound } from "next/navigation";
 
@@ -56,15 +46,12 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
 
-  // Ensure that the incoming `locale` is valid
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
 
   setRequestLocale(locale);
 
-  // Providing all messages to the client
-  // side is the easiest way to get started
   const messages = await getMessages();
 
   return (
@@ -81,28 +68,14 @@ export default async function LocaleLayout({
             defaultTheme={siteConfig.defaultNextTheme}
             enableSystem
           >
-            {messages.LanguageDetection && <LanguageDetectionAlert />}
-            {messages.Header && <Header />}
-
+            <Header />
             <main className="flex-1 flex flex-col items-center">
               {children}
             </main>
-
-            {messages.Footer && <Footer />}
+            <Footer />
           </ThemeProvider>
         </NextIntlClientProvider>
         <TailwindIndicator />
-        {process.env.NODE_ENV === "development" ? (
-          <></>
-        ) : (
-          <>
-            <Analytics />
-            <BaiDuAnalytics />
-            <GoogleAnalytics />
-            <GoogleAdsense />
-            <PlausibleAnalytics />
-          </>
-        )}
       </body>
     </html>
   );

@@ -1,150 +1,163 @@
 {
-  "LanguageDetection": {
-    "title": "语言建议",
-    "description": "检测到你的浏览器语言和当前语言不一样，你随时都可切换语言。",
-    "countdown": "将在 {countdown} 秒后关闭",
-    "switchTo": "切换到"
-  },
   "Header": {
-    "links": [
-      {
-        "name": "博客",
-        "href": "/blog"
-      },
-      {
-        "name": "关于",
-        "href": "/about"
-      },
-      {
-        "name": "源码",
-        "href": "https://github.com/weijunext/nextjs-starter",
-        "target": "_blank",
-        "rel": "noopener noreferrer nofollow"
-      },
-      {
-        "name": "高级版",
-        "href": "https://nexty.dev",
-        "target": "_blank",
-        "rel": "noopener noreferrer"
-      }
-    ]
-  },
-  "Footer": {
-    "Copyright": "版权所有 © {year} {name} 保留所有权利。",
-    "PrivacyPolicy": "隐私政策",
-    "TermsOfService": "服务条款",
-    "Links": {
-      "groups": [
-        {
-          "title": "语言",
-          "links": [
-            {
-              "href": "/en",
-              "name": "English",
-              "useA": true
-            },
-            {
-              "href": "/zh",
-              "name": "中文",
-              "useA": true
-            },
-            {
-              "href": "/ja",
-              "name": "日本語",
-              "useA": true
-            }
-          ]
-        },
-        {
-          "title": "开源项目",
-          "links": [
-            {
-              "href": "https://github.com/weijunext/nextjs-starter",
-              "name": "Next.js Starter",
-              "rel": "noopener noreferrer nofollow",
-              "target": "_blank"
-            },
-            {
-              "href": "https://github.com/weijunext/landing-page-boilerplate",
-              "name": "Landing Page Boilerplate",
-              "rel": "noopener noreferrer nofollow",
-              "target": "_blank"
-            },
-            {
-              "href": "https://github.com/weijunext/weekly-boilerplate",
-              "name": "Blog Boilerplate",
-              "rel": "noopener noreferrer nofollow",
-              "target": "_blank"
-            }
-          ]
-        },
-        {
-          "title": "其他产品",
-          "links": [
-            {
-              "href": "https://nexty.dev/",
-              "name": "Nexty - SaaS Template",
-              "rel": "noopener noreferrer",
-              "target": "_blank"
-            },
-            {
-              "href": "https://myogimage.com/",
-              "name": "OG Image Generator",
-              "rel": "noopener noreferrer",
-              "target": "_blank"
-            }
-          ]
-        }
-      ]
-    },
-    "Newsletter": {
-      "title": "订阅我们的邮件",
-      "description": "获取最新的 Next.js 资讯和教程",
-      "defaultErrorMessage": "请输入有效的邮箱地址",
-      "successMessage": "订阅成功",
-      "errorMessage": "订阅失败",
-      "errorMessage2": "订阅失败，请稍后再试",
-      "subscribe": "订阅",
-      "subscribing": "订阅中",
-      "subscribed": "订阅成功！感谢您的关注。"
-    }
+    "products": "产品",
+    "about": "关于我们",
+    "faq": "常见问题",
+    "contacts": "联系方式"
   },
   "Home": {
-    "title": "Next.js Starter",
-    "tagLine": "Next.js 多语言启动模板",
-    "description": "内置多语言支持的 Next.js 16 启动模板，助您快速构建面向全球的出海网站。简洁高效，开箱即用，完全优化的SEO基础架构。"
+    "badge": "自 2005 年起",
+    "title": "UFASNABTORG",
+    "tagLine": "稀土金属生产与批发",
+    "description": "UFASNABTORG 有限责任公司自 2005 年起生产和供应铜粉、镍丝、硒、锌、铝及其他稀土金属，业务覆盖俄罗斯及海外。",
+    "ctaProducts": "查看产品",
+    "ctaOrder": "提交申请",
+    "aboutTitle": "关于公司",
+    "aboutP1": "UFASNABTORG 有限责任公司成立于 2005 年，专业从事稀土金属的生产和批发，业务覆盖俄罗斯及海外。",
+    "aboutP2": "所有产品均在质谱和生态分析方法实验室（莫斯科 IASCH GIREDMET）进行认证。应买家要求，我们会在瑞士稀土和战略金属研究所 ISE AG 的独立实验室进行认证。",
+    "aboutP3": "公司已通过 PROMTEKHSERTIFIKATSIYA 自愿认证体系认证，并持有 ISO 9001-2015 证书。产品出口至德国、瑞士、捷克、斯洛伐克、中国、韩国、阿联酋等国家。",
+    "since": "成立年份",
+    "purity": "最高纯度",
+    "countries": "出口国家",
+    "aboutMore": "了解更多公司信息",
+    "aboutImagePlaceholder": "生产照片位置",
+    "certificatesTitle": "证书和许可",
+    "certificatesSubtitle": "所有产品均通过俄罗斯和瑞士领先实验室的认证",
+    "certificatePlaceholder": "证书",
+    "contactsTitle": "联系我们",
+    "contactsSubtitle": "我们将回答问题、计算价格并帮助您下订单",
+    "phoneLabel": "电话",
+    "emailLabel": "电子邮件",
+    "whatsappLabel": "WhatsApp",
+    "orderTitle": "提交申请",
+    "orderDescription": "填写表格——我们会尽快与您联系",
+    "hintTitle": "请说明以下内容",
+    "hintProduct": "产品名称",
+    "hintProductDetail": "例如：铜粉 99.9999%",
+    "hintQuantity": "数量",
+    "hintQuantityDetail": "以千克或包装单位计",
+    "hintPayment": "付款方式",
+    "hintPaymentDetail": "银行转账、信用证等",
+    "hintDelivery": "交货方式和地址",
+    "hintDeliveryDetail": "城市、国家、首选运输公司",
+    "hintContacts": "方便的联系方式",
+    "hintContactsDetail": "电话、电子邮件或 WhatsApp",
+    "hintFooter": "您提供的细节越多，我们就能越快准备商业报价。",
+    "formName": "姓名",
+    "formEmail": "电子邮件",
+    "formPhone": "电话",
+    "formMessage": "描述您的订单",
+    "formMessagePlaceholder": "产品名称、数量、付款和交货方式、地址...",
+    "formConsent": "我同意处理个人数据并接收信息邮件",
+    "formSubmit": "提交申请",
+    "validationName": "请输入姓名——仅限字母、空格和连字符",
+    "validationEmail": "请输入有效的电子邮件",
+    "validationPhone": "请输入有效的电话号码（7 至 20 个字符）"
   },
-  "Blog": {
-    "title": "博客列表",
-    "description": "博客列表"
+  "Products": {
+    "title": "产品",
+    "description": "我们的产品目录",
+    "requestButton": "申请"
+  },
+  "Product": {
+    "requestButton": "申请",
+    "requestTitle": "申请产品",
+    "requestDescription": "填写表格，我们会尽快与您联系。",
+    "hintTitle": "请说明以下内容",
+    "hintProduct": "产品名称",
+    "hintQuantity": "数量",
+    "hintPayment": "付款方式",
+    "hintDelivery": "交货方式和地址",
+    "hintContacts": "方便的联系方式",
+    "name": "姓名",
+    "email": "电子邮件",
+    "phone": "电话",
+    "message": "描述您的订单",
+    "messagePlaceholder": "产品名称、数量、付款和交货方式、地址...",
+    "consent": "我同意处理个人数据",
+    "submit": "提交申请",
+    "certificatesTitle": "证书",
+    "certificatePlaceholder": "证书",
+    "certificatesNote": "完整文件包可应要求提供"
   },
   "About": {
-    "title": "关于",
-    "description": "关于网站"
+    "title": "关于我们",
+    "description": "关于 UFASNABTORG",
+    "heroSubtitle": "自 2005 年起生产和供应稀土金属",
+    "p1": "UFASNABTORG 有限责任公司成立于 2005 年，专业从事稀土金属的生产和批发，业务覆盖俄罗斯及海外。",
+    "p2": "所有产品均在质谱和生态分析方法实验室（莫斯科 IASCH GIREDMET）进行认证。应买家要求，我们会在瑞士稀土和战略金属研究所 ISE AG 的独立实验室进行认证。",
+    "p3": "公司已通过 PROMTEKHSERTIFIKATSIYA 自愿认证体系认证，并持有 ISO 9001-2015 证书。产品出口至德国、瑞士、捷克、斯洛伐克、中国、韩国、阿联酋等国家。",
+    "p4": "根据 2012-2013 年俄罗斯联邦对外经济活动国家商业评级“年度出口商”，公司在商品组 74“铜及铜制品”出口商 TOP-50 中排名第 41 位。2014 年，公司荣获“2014 年出口商”荣誉称号和证书。",
+    "imagePlaceholder": "生产照片位置",
+    "statSince": "成立年份",
+    "statPurity": "最高纯度",
+    "statCountries": "出口国家",
+    "advantagesTitle": "我们的优势",
+    "adv1Title": "自有生产",
+    "adv1Text": "从原材料到成品的完整生产周期。",
+    "adv2Title": "国际认证",
+    "adv2Text": "Giredmet（俄罗斯）和 ISE AG（瑞士）证书。",
+    "adv3Title": "出口 20+ 个国家",
+    "adv3Text": "德国、瑞士、捷克、中国、韩国、阿联酋等。",
+    "adv4Title": "灵活条件",
+    "adv4Text": "一次性供货和长期合作。"
   },
-  "TermsOfService": {
-    "title": "服务条款",
-    "description": "服务条款"
+  "FAQ": {
+    "title": "常见问题",
+    "description": "常见问题解答",
+    "heroSubtitle": "关于我们的产品、认证和工作条件的常见问题解答",
+    "q1": "你们可以寄送产品样品吗？",
+    "a1": "是的，我们可以寄送产品样品。请联系我们，联系方式见“联系方式”部分。",
+    "q2": "价格如何确定？",
+    "a2": "每项产品的价格取决于特定批次的化学纯度、订单量、发货国家及其他谈判因素。请联系我们获取更多信息。",
+    "q3": "产品附带哪些文件？",
+    "a3": "所有产品均附有完整的出口文件，包括原产地证书。您可以通过任何方便的方式索取文件清单。"
+  },
+  "Contacts": {
+    "title": "联系方式",
+    "description": "联系我们",
+    "heroSubtitle": "我们将回答问题、计算价格并帮助您下订单",
+    "address": "地址",
+    "phone": "电话",
+    "email": "电子邮件",
+    "addressValue": "俄罗斯巴什科尔托斯坦共和国乌法市",
+    "phoneLabel": "电话",
+    "emailLabel": "电子邮件",
+    "whatsappLabel": "WhatsApp",
+    "addressLabel": "地址",
+    "requisitesTitle": "公司信息",
+    "reqName": "名称",
+    "reqAddress": "地址",
+    "reqPhone": "电话",
+    "reqEmail": "电子邮件",
+    "mapPlaceholder": "地图位置"
   },
   "PrivacyPolicy": {
     "title": "隐私政策",
-    "description": "隐私政策"
+    "description": "网站隐私政策",
+    "heroSubtitle": "我们如何收集、使用和保护您的个人数据",
+    "s1Title": "一般规定",
+    "s1Text": "本个人数据处理政策是根据 2006 年 7 月 27 日第 152-FZ 号联邦法《个人数据法》的要求制定的，规定了个人数据的处理程序以及 UFASNABTORG 有限责任公司（以下简称“运营方”）为确保其安全而采取的措施。",
+    "s2Title": "处理目的",
+    "s2Text": "运营方处理个人数据的目的如下：处理产品申请、与客户沟通、签订和履行供货合同、发送信息消息（经同意）。",
+    "s3Title": "处理数据的组成",
+    "s3Text": "运营方处理以下个人数据：全名；电子邮件地址；电话号码；申请表中留言的内容。处理须经个人数据主体的同意。",
+    "s4Title": "法律依据",
+    "s4Text": "个人数据处理基于：第 152-FZ 号联邦法《个人数据法》；主体对其个人数据处理的同意；运营方与个人数据主体签订的合同。",
+    "s5Title": "存储和保护",
+    "s5Text": "运营方采取必要的组织和技术措施，保护个人信息免遭未经授权的访问、销毁、修改、封锁、复制、分发。数据存储在安全的服务器上，除俄罗斯联邦法律规定的情况外，不会转移给第三方。",
+    "s6Title": "主体的权利",
+    "s6Text": "个人数据主体有权：获取有关其数据处理的信息；要求澄清、封锁或销毁数据；通过向运营方发送书面通知撤回对个人数据处理的同意。",
+    "s7Title": "政策变更",
+    "s7Text": "运营方有权对本政策进行修改。新版自其在网站上发布之日起生效，除非新版另有规定。",
+    "contactLabel": "咨询联系方式"
   },
-  "Showcase": {
-    "title": "使用案例展示",
-    "description": "探索使用本 Next.js 启动模板构建的优秀产品和网站。",
-    "visitSite": "访问网站"
+  "Footer": {
+    "Copyright": "© {year} {name}。版权所有。",
+    "PrivacyPolicy": "隐私政策"
   },
-  "Submission": {
-    "badge": "获得展示",
-    "title": "提交您的产品",
-    "description": "用这套模板构建了出色的产品？与我们的社区分享您的作品，并在展示区获得曝光。",
-    "productNameLabel": "产品名称",
-    "productNamePlaceholder": "我的优秀项目",
-    "productUrlLabel": "产品链接",
-    "submit": "提交产品",
-    "submitting": "提交中...",
-    "successMessage": "感谢您的提交！我们会尽快审核。",
-    "errorMessage": "出了点问题，请重试。"
+  "NotFound": {
+    "title": "404",
+    "description": "页面未找到"
   }
 }

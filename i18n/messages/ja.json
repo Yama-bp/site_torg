@@ -1,150 +1,163 @@
 {
-  "LanguageDetection": {
-    "title": "言語の提案",
-    "description": "ブラウザの言語設定が現在のサイト言語と異なっています。いつでも言語を切り替えることができます。",
-    "countdown": "閉じるまで {countdown} 秒",
-    "switchTo": "に切り替える"
-  },
   "Header": {
-    "links": [
-      {
-        "name": "ブログ",
-        "href": "/blog"
-      },
-      {
-        "name": "サイトについて",
-        "href": "/about"
-      },
-      {
-        "name": "Source Code",
-        "href": "https://github.com/weijunext/nextjs-starter",
-        "target": "_blank",
-        "rel": "noopener noreferrer nofollow"
-      },
-      {
-        "name": "Pro Version",
-        "href": "https://nexty.dev",
-        "target": "_blank",
-        "rel": "noopener noreferrer"
-      }
-    ]
-  },
-  "Footer": {
-    "Copyright": "Copyright © {year} {name} All rights reserved.",
-    "PrivacyPolicy": "プライバシーポリシー",
-    "TermsOfService": "利用規約",
-    "Links": {
-      "groups": [
-        {
-          "title": "言語",
-          "links": [
-            {
-              "href": "/en",
-              "name": "English",
-              "useA": true
-            },
-            {
-              "href": "/zh",
-              "name": "中文",
-              "useA": true
-            },
-            {
-              "href": "/ja",
-              "name": "日本語",
-              "useA": true
-            }
-          ]
-        },
-        {
-          "title": "オープンソースプロジェクト",
-          "links": [
-            {
-              "href": "https://github.com/weijunext/nextjs-starter",
-              "name": "Next.js Starter",
-              "rel": "noopener noreferrer nofollow",
-              "target": "_blank"
-            },
-            {
-              "href": "https://github.com/weijunext/landing-page-boilerplate",
-              "name": "Landing Page Boilerplate",
-              "rel": "noopener noreferrer nofollow",
-              "target": "_blank"
-            },
-            {
-              "href": "https://github.com/weijunext/weekly-boilerplate",
-              "name": "Blog Boilerplate",
-              "rel": "noopener noreferrer nofollow",
-              "target": "_blank"
-            }
-          ]
-        },
-        {
-          "title": "その他の製品",
-          "links": [
-            {
-              "href": "https://nexty.dev/",
-              "name": "Nexty - SaaS Template",
-              "rel": "noopener noreferrer",
-              "target": "_blank"
-            },
-            {
-              "href": "https://myogimage.com/",
-              "name": "OG Image Generator",
-              "rel": "noopener noreferrer",
-              "target": "_blank"
-            }
-          ]
-        }
-      ]
-    },
-    "Newsletter": {
-      "title": "Next.js Starterのニュースレターに登録する",
-      "description": "Next.js Starterの最新のニュースと更新情報を入手します。",
-      "defaultErrorMessage": "有効なメールアドレスを入力してください。",
-      "successMessage": "登録が完了しました。",
-      "errorMessage": "登録に失敗しました。",
-      "errorMessage2": "登録に失敗しました。少し待ってから再試行してください。",
-      "subscribe": "登録する",
-      "subscribing": "登録中...",
-      "subscribed": "登録が完了しました。ありがとうございます。"
-    }
+    "products": "製品",
+    "about": "会社概要",
+    "faq": "よくある質問",
+    "contacts": "お問い合わせ"
   },
   "Home": {
-    "title": "Next.js Starter",
-    "tagLine": "Next.js 多言語スターターテンプレート",
-    "description": "多言語対応機能を搭載したNext.js 15スターターテンプレート。SEO最適化済みで、グローバル展開可能なウェブアプリを効率的に構築できます。"
+    "badge": "2005年以来",
+    "title": "UFASNABTORG",
+    "tagLine": "希土類金属の製造と卸売",
+    "description": "UFASNABTORG 有限会社は 2005 年から銅粉、ニッケル線、セレン、亜鉛、アルミニウムなどの希土類金属をロシア国内外に製造・供給しています。",
+    "ctaProducts": "製品を見る",
+    "ctaOrder": "リクエストする",
+    "aboutTitle": "会社について",
+    "aboutP1": "UFASNABTORG 有限会社は 2005 年に設立されました。ロシア国内外で希土類金属の製造と卸売を専門としています。",
+    "aboutP2": "すべての製品は、質量分析および生態分析研究所（モスクワ IASCH GIREDMET）で認証されています。購入者の要請により、スイスの希土類・戦略金属研究所 ISE AG の独立研究所で認証を行います。",
+    "aboutP3": "当社は PROMTEKHSERTIFIKATSIYA 自主認証システムの認証を受けており、ISO 9001-2015 証明書を保有しています。製品はドイツ、スイス、チェコ、スロバキア、中国、韓国、UAE などに輸出されています。",
+    "since": "設立年",
+    "purity": "最大純度",
+    "countries": "輸出先",
+    "aboutMore": "会社について詳しく見る",
+    "aboutImagePlaceholder": "生産写真の場所",
+    "certificatesTitle": "証明書とライセンス",
+    "certificatesSubtitle": "すべての製品はロシアとスイスの主要な研究所で認証されています",
+    "certificatePlaceholder": "証明書",
+    "contactsTitle": "お問い合わせ",
+    "contactsSubtitle": "ご質問にお答えし、価格を計算し、ご注文をお手伝いします",
+    "phoneLabel": "電話",
+    "emailLabel": "メール",
+    "whatsappLabel": "WhatsApp",
+    "orderTitle": "リクエストする",
+    "orderDescription": "フォームにご記入ください。すぐにご連絡いたします",
+    "hintTitle": "ご記入いただく内容",
+    "hintProduct": "製品名",
+    "hintProductDetail": "例：銅粉 99.9999%",
+    "hintQuantity": "数量",
+    "hintQuantityDetail": "キログラムまたは梱包単位",
+    "hintPayment": "お支払い方法",
+    "hintPaymentDetail": "銀行振込、信用状など",
+    "hintDelivery": "配送方法と住所",
+    "hintDeliveryDetail": "都市、国、希望する運輸会社",
+    "hintContacts": "ご希望の連絡方法",
+    "hintContactsDetail": "電話、メール、WhatsApp",
+    "hintFooter": "詳細をご記入いただくほど、迅速に商業提案を作成できます。",
+    "formName": "氏名",
+    "formEmail": "メールアドレス",
+    "formPhone": "電話番号",
+    "formMessage": "ご注文内容をご記入ください",
+    "formMessagePlaceholder": "製品名、数量、お支払いと配送方法、住所...",
+    "formConsent": "個人情報の処理および情報メールの受信に同意します",
+    "formSubmit": "リクエストを送信",
+    "validationName": "名前を入力してください — 文字、スペース、ハイフンのみ",
+    "validationEmail": "有効なメールアドレスを入力してください",
+    "validationPhone": "有効な電話番号を入力してください（7〜20 文字）"
   },
-  "Blog": {
-    "title": "ブログ一覧",
-    "description": "ブログ投稿の一覧"
+  "Products": {
+    "title": "製品",
+    "description": "製品カタログ",
+    "requestButton": "リクエスト"
+  },
+  "Product": {
+    "requestButton": "リクエスト",
+    "requestTitle": "製品をリクエスト",
+    "requestDescription": "フォームに記入してください。すぐにご連絡いたします。",
+    "hintTitle": "ご記入いただく内容",
+    "hintProduct": "製品名",
+    "hintQuantity": "数量",
+    "hintPayment": "お支払い方法",
+    "hintDelivery": "配送方法と住所",
+    "hintContacts": "ご希望の連絡方法",
+    "name": "氏名",
+    "email": "メールアドレス",
+    "phone": "電話番号",
+    "message": "ご注文内容をご記入ください",
+    "messagePlaceholder": "製品名、数量、お支払いと配送方法、住所...",
+    "consent": "個人情報の処理に同意します",
+    "submit": "リクエストを送信",
+    "certificatesTitle": "証明書",
+    "certificatePlaceholder": "証明書",
+    "certificatesNote": "完全な書類セットはご要望に応じて提供されます"
   },
   "About": {
-    "title": "サイトについて",
-    "description": "サイトについて"
+    "title": "会社概要",
+    "description": "UFASNABTORG について",
+    "heroSubtitle": "2005 年から希土類金属を製造・供給しています",
+    "p1": "UFASNABTORG 有限会社は 2005 年に設立されました。ロシア国内外で希土類金属の製造と卸売を専門としています。",
+    "p2": "すべての製品は、質量分析および生態分析研究所（モスクワ IASCH GIREDMET）で認証されています。購入者の要請により、スイスの希土類・戦略金属研究所 ISE AG の独立研究所で認証を行います。",
+    "p3": "当社は PROMTEKHSERTIFIKATSIYA 自主認証システムの認証を受けており、ISO 9001-2015 証明書を保有しています。製品はドイツ、スイス、チェコ、スロバキア、中国、韓国、UAE などに輸出されています。",
+    "p4": "2012-2013 年のロシア連邦对外経済活動国家ビジネスレーティング「輸出業者オブザイヤー」において、当社は商品グループ 74「銅および銅製品」の輸出業者 TOP-50 で 41 位にランクされました。2014 年には「輸出業者 2014」名誉章と証明書を授与されました。",
+    "imagePlaceholder": "生産写真の場所",
+    "statSince": "設立年",
+    "statPurity": "最大純度",
+    "statCountries": "輸出先",
+    "advantagesTitle": "当社の強み",
+    "adv1Title": "自社生産",
+    "adv1Text": "原材料から完成品までの完全な生産サイクル。",
+    "adv2Title": "国際認証",
+    "adv2Text": "Giredmet（ロシア）および ISE AG（スイス）の証明書。",
+    "adv3Title": "20 か国以上に輸出",
+    "adv3Text": "ドイツ、スイス、チェコ、中国、韓国、UAE など。",
+    "adv4Title": "柔軟な条件",
+    "adv4Text": "一度の供給と長期協力。"
   },
-  "TermsOfService": {
-    "title": "サービス利用規約",
-    "description": "サービス利用規約"
+  "FAQ": {
+    "title": "よくある質問",
+    "description": "よくある質問への回答",
+    "heroSubtitle": "製品、認証、業務条件に関するよくある質問への回答",
+    "q1": "製品サンプルを送っていただけますか？",
+    "a1": "はい、製品サンプルをお送りできます。「お問い合わせ」セクションに記載されている方法でご連絡ください。",
+    "q2": "価格はどのように決まりますか？",
+    "a2": "各製品の価格は、特定のバッチの化学純度、注文量、出荷国、その他の交渉要因によって決まります。詳細はお問い合わせください。",
+    "q3": "製品にはどのような書類が付属しますか？",
+    "a3": "すべての製品には、原産地証明書を含む完全な輸出書類が付属します。書類のリストはお問い合わせください。"
+  },
+  "Contacts": {
+    "title": "お問い合わせ",
+    "description": "ご連絡ください",
+    "heroSubtitle": "ご質問にお答えし、価格を計算し、ご注文をお手伝いします",
+    "address": "住所",
+    "phone": "電話",
+    "email": "メール",
+    "addressValue": "ロシア連邦バシコルトスタン共和国ウファ市",
+    "phoneLabel": "電話",
+    "emailLabel": "メール",
+    "whatsappLabel": "WhatsApp",
+    "addressLabel": "住所",
+    "requisitesTitle": "会社情報",
+    "reqName": "名称",
+    "reqAddress": "住所",
+    "reqPhone": "電話",
+    "reqEmail": "メール",
+    "mapPlaceholder": "地図の場所"
   },
   "PrivacyPolicy": {
     "title": "プライバシーポリシー",
-    "description": "プライバシーポリシー"
+    "description": "サイトのプライバシーポリシー",
+    "heroSubtitle": "お客様の個人データをどのように収集、使用、保護するか",
+    "s1Title": "一般条項",
+    "s1Text": "本個人データ処理ポリシーは、2006 年 7 月 27 日付連邦法第 152-FZ 号「個人データに関する法律」の要件に従って作成され、個人データの処理手順と、UFASNABTORG 有限会社（以下「運営者」）がその安全を確保するために講じる措置を定めます。",
+    "s2Title": "処理の目的",
+    "s2Text": "運営者は、以下の目的で個人データを処理します：製品リクエストの処理、顧客との連絡、供給契約の締結と履行、情報メッセージの送信（同意がある場合）。",
+    "s3Title": "処理されるデータの構成",
+    "s3Text": "運営者は以下の個人データを処理します：氏名、メールアドレス、電話番号、リクエストフォームに残されたメッセージの内容。処理は個人データ主体の同意を得て行われます。",
+    "s4Title": "法的根拠",
+    "s4Text": "個人データの処理は、以下に基づいて行われます：連邦法第 152-FZ 号「個人データに関する法律」、主体による個人データ処理への同意、運営者と個人データ主体との間で締結された契約。",
+    "s5Title": "保管と保護",
+    "s5Text": "運営者は、個人情報を不正アクセス、破壊、改変、ブロック、コピー、配布から保護するために必要な組織的および技術的措置を講じます。データは安全なサーバーに保存され、ロシア連邦の法律で定められた場合を除き、第三者に転送されません。",
+    "s6Title": "主体の権利",
+    "s6Text": "個人データ主体は以下の権利を有します：自分のデータの処理に関する情報を受け取る、データの明確化、ブロック、または破壊を要求する、運営者に書面による通知を送って個人データ処理への同意を撤回する。",
+    "s7Title": "ポリシーの変更",
+    "s7Text": "運営者は本ポリシーを変更する権利を有します。新版は、新版に別段の定めがない限り、サイトでの公開時点から発効します。",
+    "contactLabel": "お問い合わせ先"
   },
-  "Showcase": {
-    "title": "導入事例",
-    "description": "このNext.jsスターターテンプレートを使用して構築された素晴らしい製品とウェブサイトをご覧ください。",
-    "visitSite": "サイトを見る"
+  "Footer": {
+    "Copyright": "© {year} {name}. All rights reserved.",
+    "PrivacyPolicy": "プライバシーポリシー"
   },
-  "Submission": {
-    "badge": "掲載されよう",
-    "title": "製品を提出する",
-    "description": "このスターターで素晴らしいものを作りましたか？コミュニティと共有して、ショーケースに掲載されましょう。",
-    "productNameLabel": "製品名",
-    "productNamePlaceholder": "私の素晴らしいプロジェクト",
-    "productUrlLabel": "製品URL",
-    "submit": "製品を提出",
-    "submitting": "送信中...",
-    "successMessage": "ありがとうございます！提出を受け付けました。まもなく確認いたします。",
-    "errorMessage": "エラーが発生しました。もう一度お試しください。"
+  "NotFound": {
+    "title": "404",
+    "description": "ページが見つかりません"
   }
 }

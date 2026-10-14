@@ -11,8 +11,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Link as I18nLink } from "@/i18n/routing";
-import { HeaderLink } from "@/types/common";
+import { Link as I18nLink, usePathname } from "@/i18n/routing";
 import { Menu } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -20,8 +19,14 @@ import Image from "next/image";
 export default function MobileMenu() {
   const t = useTranslations("Home");
   const tHeader = useTranslations("Header");
+  const pathname = usePathname();
 
-  const headerLinks: HeaderLink[] = tHeader.raw("links");
+  const headerLinks = [
+    { name: tHeader("products"), href: "/products" },
+    { name: tHeader("about"), href: "/about" },
+    { name: tHeader("faq"), href: "/faq" },
+    { name: tHeader("contacts"), href: "/contacts" },
+  ];
 
   return (
     <div className="flex items-center gap-1 md:hidden">
@@ -52,15 +57,14 @@ export default function MobileMenu() {
           <DropdownMenuSeparator />
           <DropdownMenuGroup>
             {headerLinks.map((link) => (
-              <DropdownMenuItem key={link.name}>
+              <DropdownMenuItem key={link.href}>
                 <I18nLink
                   href={link.href}
                   title={link.name}
-                  prefetch={
-                    link.target && link.target === "_blank" ? false : true
-                  }
-                  target={link.target || "_self"}
-                  rel={link.rel || undefined}
+                  prefetch={true}
+                  className={`w-full ${
+                    pathname === link.href ? "font-semibold" : ""
+                  }`}
                 >
                   {link.name}
                 </I18nLink>

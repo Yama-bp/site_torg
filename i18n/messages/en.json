@@ -1,150 +1,163 @@
 {
-  "LanguageDetection": {
-    "title": "Language Suggestion",
-    "description": "We noticed your browser language differs from the current site language. You can switch languages anytime.",
-    "countdown": "Closing in {countdown} seconds",
-    "switchTo": "Switch to"
-  },
   "Header": {
-    "links": [
-      {
-        "name": "Blog",
-        "href": "/blog"
-      },
-      {
-        "name": "About",
-        "href": "/about"
-      },
-      {
-        "name": "Source Code",
-        "href": "https://github.com/weijunext/nextjs-starter",
-        "target": "_blank",
-        "rel": "noopener noreferrer nofollow"
-      },
-      {
-        "name": "Pro Version",
-        "href": "https://nexty.dev",
-        "target": "_blank",
-        "rel": "noopener noreferrer"
-      }
-    ]
-  },
-  "Footer": {
-    "Copyright": "Copyright © {year} {name} All rights reserved.",
-    "PrivacyPolicy": "Privacy Policy",
-    "TermsOfService": "Terms of Service",
-    "Links": {
-      "groups": [
-        {
-          "title": "Languages",
-          "links": [
-            {
-              "href": "/en",
-              "name": "English",
-              "useA": true
-            },
-            {
-              "href": "/zh",
-              "name": "中文",
-              "useA": true
-            },
-            {
-              "href": "/ja",
-              "name": "日本語",
-              "useA": true
-            }
-          ]
-        },
-        {
-          "title": "Open Source",
-          "links": [
-            {
-              "href": "https://github.com/weijunext/nextjs-starter",
-              "name": "Next.js Starter",
-              "rel": "noopener noreferrer nofollow",
-              "target": "_blank"
-            },
-            {
-              "href": "https://github.com/weijunext/landing-page-boilerplate",
-              "name": "Landing Page Boilerplate",
-              "rel": "noopener noreferrer nofollow",
-              "target": "_blank"
-            },
-            {
-              "href": "https://github.com/weijunext/weekly-boilerplate",
-              "name": "Blog Boilerplate",
-              "rel": "noopener noreferrer nofollow",
-              "target": "_blank"
-            }
-          ]
-        },
-        {
-          "title": "Other Products",
-          "links": [
-            {
-              "href": "https://nexty.dev/",
-              "name": "Nexty - SaaS Template",
-              "rel": "noopener noreferrer",
-              "target": "_blank"
-            },
-            {
-              "href": "https://myogimage.com/",
-              "name": "OG Image Generator",
-              "rel": "noopener noreferrer",
-              "target": "_blank"
-            }
-          ]
-        }
-      ]
-    },
-    "Newsletter": {
-      "title": "Subscribe to our newsletter",
-      "description": "Get the latest news and updates from Next.js Starter",
-      "defaultErrorMessage": "Please enter a valid email address",
-      "successMessage": "Subscription successful",
-      "errorMessage": "Subscription failed",
-      "errorMessage2": "Subscription failed. Please try again later.",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "subscribed": "Subscription successful! Thank you for your attention."
-    }
+    "products": "Products",
+    "about": "About",
+    "faq": "FAQ",
+    "contacts": "Contacts"
   },
   "Home": {
-    "title": "Next.js Starter",
-    "tagLine": "Multilingual Next.js 16 Starter",
-    "description": "A multilingual Next.js 16 starter with built-in i18n support. Launch your global-ready web application with a clean, efficient, and SEO-friendly foundation."
+    "badge": "Since 2005",
+    "title": "UFASNABTORG",
+    "tagLine": "Production and wholesale of rare earth metals",
+    "description": "LLC Bashkir Enterprise UFASNABTORG has been manufacturing and supplying copper powders, nickel wire, selenium, zinc, aluminum and other rare earth metals to Russia and abroad since 2005.",
+    "ctaProducts": "View products",
+    "ctaOrder": "Request a quote",
+    "aboutTitle": "About the company",
+    "aboutP1": "LLC Bashkir Enterprise UFASNABTORG was founded in 2005. The company specializes in the manufacture and wholesale of rare earth metals in Russia and abroad.",
+    "aboutP2": "All products are certified at the Laboratory of Mass Spectrometric and Ecoanalytical Methods (IASH GIREDMET, Moscow). At the buyer's request, we certify products at the independent laboratory of the Institute of Rare Earth and Strategic Metals ISE AG (Switzerland).",
+    "aboutP3": "The company is certified by the Voluntary Certification System PROMTEKHSERTIFIKATSIYA and holds ISO 9001-2015 certificates. Products are supplied to Germany, Switzerland, Czech Republic, Slovakia, China, Korea, UAE and other countries.",
+    "since": "founded",
+    "purity": "maximum purity",
+    "countries": "export countries",
+    "aboutMore": "Learn more about the company",
+    "aboutImagePlaceholder": "Place for production photo",
+    "certificatesTitle": "Certificates and licenses",
+    "certificatesSubtitle": "All products are certified in leading laboratories in Russia and Switzerland",
+    "certificatePlaceholder": "Certificate",
+    "contactsTitle": "Get in touch",
+    "contactsSubtitle": "We will answer your questions, calculate the price and help you place an order",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "whatsappLabel": "WhatsApp",
+    "orderTitle": "Request a quote",
+    "orderDescription": "Fill in the form — we will contact you shortly",
+    "hintTitle": "What to include",
+    "hintProduct": "Product name",
+    "hintProductDetail": "For example: copper powder 99.9999%",
+    "hintQuantity": "Quantity",
+    "hintQuantityDetail": "In kilograms or packaging units",
+    "hintPayment": "Payment method",
+    "hintPaymentDetail": "Bank transfer, letter of credit, etc.",
+    "hintDelivery": "Delivery method and address",
+    "hintDeliveryDetail": "City, country, preferred transport company",
+    "hintContacts": "Preferred contact method",
+    "hintContactsDetail": "Phone, email or WhatsApp",
+    "hintFooter": "The more details you provide, the faster we can prepare a commercial offer.",
+    "formName": "Full name",
+    "formEmail": "Email",
+    "formPhone": "Phone",
+    "formMessage": "Describe your order",
+    "formMessagePlaceholder": "Product name, quantity, payment and delivery method, address...",
+    "formConsent": "I consent to the processing of personal data and receiving informational emails",
+    "formSubmit": "Submit request",
+    "validationName": "Enter your name — letters, spaces and hyphens only",
+    "validationEmail": "Enter a valid email",
+    "validationPhone": "Enter a valid phone number (7 to 20 characters)"
   },
-  "Blog": {
-    "title": "Blog Posts",
-    "description": "A list of blog posts"
+  "Products": {
+    "title": "Products",
+    "description": "Our product catalog",
+    "requestButton": "Request"
+  },
+  "Product": {
+    "requestButton": "Request",
+    "requestTitle": "Request a product",
+    "requestDescription": "Fill in the form and we will contact you shortly.",
+    "hintTitle": "What to include",
+    "hintProduct": "Product name",
+    "hintQuantity": "Quantity",
+    "hintPayment": "Payment method",
+    "hintDelivery": "Delivery method and address",
+    "hintContacts": "Preferred contact method",
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Describe your order",
+    "messagePlaceholder": "Product name, quantity, payment and delivery method, address...",
+    "consent": "I consent to the processing of personal data",
+    "submit": "Submit request",
+    "certificatesTitle": "Certificates",
+    "certificatePlaceholder": "Certificate",
+    "certificatesNote": "Full set of documents available upon request"
   },
   "About": {
     "title": "About",
-    "description": "About the site"
+    "description": "About UFASNABTORG",
+    "heroSubtitle": "Manufacturing and supplying rare earth metals since 2005",
+    "p1": "LLC Bashkir Enterprise UFASNABTORG was founded in 2005. The company specializes in the manufacture and wholesale of rare earth metals in Russia and abroad.",
+    "p2": "All products are certified at the Laboratory of Mass Spectrometric and Ecoanalytical Methods (IASH GIREDMET, Moscow). At the buyer's request, we certify products at the independent laboratory of the Institute of Rare Earth and Strategic Metals ISE AG (Switzerland).",
+    "p3": "The company is certified by the Voluntary Certification System PROMTEKHSERTIFIKATSIYA and holds ISO 9001-2015 certificates. Products are supplied to Germany, Switzerland, Czech Republic, Slovakia, China, Korea, UAE and other countries.",
+    "p4": "According to the National Business Rating of the Russian Federation in the field of foreign economic activity \"EXPORTER OF THE YEAR\" in 2012-2013, the company ranked 41st in the TOP-50 exporters in commodity group 74 \"Copper and copper articles\". In 2014, the company was awarded the honorary signs \"Exporter 2014\" and a certificate.",
+    "imagePlaceholder": "Place for production photo",
+    "statSince": "founded",
+    "statPurity": "maximum purity",
+    "statCountries": "export countries",
+    "advantagesTitle": "Our advantages",
+    "adv1Title": "In-house production",
+    "adv1Text": "Full production cycle — from raw materials to finished products.",
+    "adv2Title": "International certification",
+    "adv2Text": "Giredmet (Russia) and ISE AG (Switzerland) certificates.",
+    "adv3Title": "Export to 20+ countries",
+    "adv3Text": "Germany, Switzerland, Czech Republic, China, Korea, UAE and others.",
+    "adv4Title": "Flexible terms",
+    "adv4Text": "One-time supplies and long-term cooperation."
   },
-  "TermsOfService": {
-    "title": "Terms of Service",
-    "description": "Terms of Service"
+  "FAQ": {
+    "title": "FAQ",
+    "description": "Frequently asked questions",
+    "heroSubtitle": "Answers to frequently asked questions about our products, certification and working terms",
+    "q1": "Can you send a product sample?",
+    "a1": "Yes, we can send you a product sample. To receive the required sample, please contact us using any convenient method listed in the Contacts section.",
+    "q2": "How is the price determined?",
+    "a2": "The price for each item depends on the chemical purity of the specific batch, order volume, country of shipment and other factors discussed during negotiations. Please contact us for more information.",
+    "q3": "What documents accompany the products?",
+    "a3": "All products are accompanied by a full set of export documents, including a certificate of origin. You can request the list of documents using any convenient method."
+  },
+  "Contacts": {
+    "title": "Contacts",
+    "description": "Get in touch",
+    "heroSubtitle": "We will answer your questions, calculate the price and help you place an order",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "addressValue": "Ufa, Republic of Bashkortostan, Russia",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "whatsappLabel": "WhatsApp",
+    "addressLabel": "Address",
+    "requisitesTitle": "Company details",
+    "reqName": "Name",
+    "reqAddress": "Address",
+    "reqPhone": "Phone",
+    "reqEmail": "Email",
+    "mapPlaceholder": "Place for map"
   },
   "PrivacyPolicy": {
     "title": "Privacy Policy",
-    "description": "Privacy Policy"
+    "description": "Site privacy policy",
+    "heroSubtitle": "How we collect, use and protect your personal data",
+    "s1Title": "General provisions",
+    "s1Text": "This personal data processing policy is drawn up in accordance with the requirements of Federal Law No. 152-FZ of 27.07.2006 \"On Personal Data\" and determines the procedure for processing personal data and measures to ensure their security taken by LLC BP \"UFASNABTORG\" (hereinafter referred to as the Operator).",
+    "s2Title": "Purposes of processing",
+    "s2Text": "The Operator processes personal data for the following purposes: processing product requests, communicating with the client, concluding and executing supply contracts, sending informational messages (with consent).",
+    "s3Title": "Composition of processed data",
+    "s3Text": "The Operator processes the following personal data: full name; email address; phone number; content of the message left in the request form. Processing is carried out with the consent of the personal data subject.",
+    "s4Title": "Legal grounds",
+    "s4Text": "Personal data processing is carried out on the basis of: Federal Law No. 152-FZ \"On Personal Data\"; the consent of the subject to the processing of his personal data; contracts concluded between the Operator and the personal data subject.",
+    "s5Title": "Storage and protection",
+    "s5Text": "The Operator takes the necessary organizational and technical measures to protect personal information from unauthorized access, destruction, modification, blocking, copying, distribution. Data is stored on secure servers and is not transferred to third parties, except as provided by the legislation of the Russian Federation.",
+    "s6Title": "Rights of the subject",
+    "s6Text": "The personal data subject has the right to: receive information about the processing of his data; demand clarification, blocking or destruction of data; withdraw consent to the processing of personal data by sending a written notice to the Operator.",
+    "s7Title": "Policy changes",
+    "s7Text": "The Operator has the right to make changes to this policy. The new edition comes into force from the moment of its publication on the site, unless otherwise provided by the new edition.",
+    "contactLabel": "Contacts for inquiries"
   },
-  "Showcase": {
-    "title": "Built with This Starter",
-    "description": "Discover amazing products and websites built using this Next.js starter template.",
-    "visitSite": "Visit site"
+  "Footer": {
+    "Copyright": "© {year} {name}. All rights reserved.",
+    "PrivacyPolicy": "Privacy Policy"
   },
-  "Submission": {
-    "badge": "Get Featured",
-    "title": "Submit Your Product",
-    "description": "Built something awesome with this starter? Share your product with our community and get featured on our showcase.",
-    "productNameLabel": "Product Name",
-    "productNamePlaceholder": "My Awesome Project",
-    "productUrlLabel": "Product URL",
-    "submit": "Submit Product",
-    "submitting": "Submitting...",
-    "successMessage": "Thank you! Your submission has been received. We'll review it shortly.",
-    "errorMessage": "Something went wrong. Please try again."
+  "NotFound": {
+    "title": "404",
+    "description": "Page not found"
   }
 }
