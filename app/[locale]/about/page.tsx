@@ -48,7 +48,7 @@ export default async function AboutPage({ params }: { params: Params }) {
         </div>
       </section>
 
-      {/* ТЕКСТ + КАРТИНКА */}
+      {/* ТЕКСТ + ОДНО ФОТО ПРОИЗВОДСТВА */}
       <section className="py-20 px-4 bg-white dark:bg-gray-950">
         <div className="container mx-auto max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -61,23 +61,12 @@ export default async function AboutPage({ params }: { params: Params }) {
             </div>
 
             <div className="relative">
-              <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-blue-100 to-blue-50 dark:from-blue-950/40 dark:to-gray-900 border border-blue-100 dark:border-blue-900/40 flex items-center justify-center text-blue-300 dark:text-blue-800 text-sm shadow-lg">
-                <div className="text-center">
-                  <svg
-                    className="w-16 h-16 mx-auto mb-3 opacity-50"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
-                    />
-                  </svg>
-                  <div>{t("imagePlaceholder")}</div>
-                </div>
+              <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
+                <img
+                  src="/images/production/factory-1.jpg"
+                  alt="Производство УФАСНАБТОРГ"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
@@ -136,9 +125,7 @@ export default async function AboutPage({ params }: { params: Params }) {
                     {i}
                   </span>
                 </div>
-                <div className="font-semibold mb-2">
-                  {t(`adv${i}Title`)}
-                </div>
+                <div className="font-semibold mb-2">{t(`adv${i}Title`)}</div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">
                   {t(`adv${i}Text`)}
                 </div>
