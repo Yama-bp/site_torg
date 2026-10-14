@@ -3,7 +3,7 @@ export const siteConfig = {
   description: "Производство и оптовая торговля редкоземельными металлами",
   url: "http://localhost:3000",
   ogImage: "/og.png",
-  themeColors: ["#ffffff", "#000000"],
+  themeColors: "#ffffff",   // ← было ["#ffffff", "#000000"], стало "#ffffff"
   defaultNextTheme: "light" as const,
   links: {
     email: "ufaust10@yandex.ru",
