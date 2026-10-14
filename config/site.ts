@@ -3,8 +3,10 @@ export const siteConfig = {
   description: "Производство и оптовая торговля редкоземельными металлами",
   url: "http://localhost:3000",
   ogImage: "/og.png",
-  themeColors: "#ffffff",   // ← было ["#ffffff", "#000000"], стало "#ffffff"
+  themeColors: "#ffffff",
   defaultNextTheme: "light" as const,
+  authors: [{ name: "УФАСНАБТОРГ", url: "http://localhost:3000" }],
+  creator: "УФАСНАБТОРГ",
   links: {
     email: "ufaust10@yandex.ru",
     phone: "+79174357548",
